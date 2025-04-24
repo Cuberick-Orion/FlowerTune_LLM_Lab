@@ -60,7 +60,7 @@ num-server-rounds = 50
 ## Evaluation
 
 <!-- This section describes the evaluation protocols and provides the results. -->
-Download the checkpoints at [this link](https://drive.google.com/drive/folders/1EYTVdWQB-QMNeACqwk8Dlna8KuHUKi2J?usp=sharing).
+Download the checkpoints at [this link](https://drive.google.com/drive/folders/1EYTVdWQB-QMNeACqwk8Dlna8KuHUKi2J?usp=sharing). Or navigate to `./results/peft_50` to obtain the checkpoints.
 
 ### Procedures
 
@@ -131,8 +131,11 @@ python main.py \
 __Average__: 58.77
 
 __MBPP__: 56.80
+
 __HumanEval__: 64.63
+
 __MultiPL-E (JS)__: 55.90
+
 __MultiPL-E (C++)__: 57.76
 
 
