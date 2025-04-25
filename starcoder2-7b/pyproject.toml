@@ -32,7 +32,7 @@ serverapp = "aimlteam.server_app:app"
 clientapp = "aimlteam.client_app:app"
 
 [tool.flwr.app.config]
-model.name = "bigcode/starcoder2-7b"
+model.name = "codellama/CodeLlama-7b-hf"
 model.quantization = 4
 model.gradient-checkpointing = true
 model.lora.peft-lora-r = 32
