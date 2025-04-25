@@ -70,7 +70,6 @@ For `bigcode/starcoder2-7b` results:
 
 ```bash
 # humaneval
-#   "pass@1": 0.6463414634146342
 python main.py \
 --model=bigcode/starcoder2-7b \
 --peft_model=path_to_the_model/peft_50  \
@@ -84,7 +83,6 @@ python main.py \
 --metric_output_path=./deepseek-coder-7b/evaluation_results_humaneval.json
 
 # mbpp
-# pass@1": 0.568
 python main.py \
 --model=bigcode/starcoder2-7b \
 --peft_model=path_to_the_model/peft_50  \
@@ -98,7 +96,6 @@ python main.py \
 --metric_output_path=./deepseek-coder-7b/evaluation_results_mbpp.json
 
 # multiple-js
-# "pass@1": 0.5590062111801242 
 python main.py \
 --model=bigcode/starcoder2-7b \
 --peft_model=path_to_the_model/peft_50  \
@@ -112,7 +109,6 @@ python main.py \
 --metric_output_path=./deepseek-coder-7b/evaluation_results_multiple_js.json
 
 # multiple-cpp
-# "pass@1": 0.577639751552795
 python main.py \
 --model=bigcode/starcoder2-7b \
 --peft_model=path_to_the_model/peft_50  \
