@@ -50,7 +50,7 @@ train.training-arguments.gradient-checkpointing = true
 train.training-arguments.lr-scheduler-type = "constant"
 strategy.fraction-fit = 0.2
 strategy.fraction-evaluate = 0.0
-num-server-rounds = 50 
+num-server-rounds = 100 
 ```
 
 #### Communication Cost
@@ -60,7 +60,7 @@ num-server-rounds = 50
 ## Evaluation
 
 <!-- This section describes the evaluation protocols and provides the results. -->
-Download the checkpoints at [this link](https://drive.google.com/drive/folders/1hycDYKiJm2kc963OISyerCjV-kcix9Z3?usp=drive_link).
+Download the checkpoints at [this link](https://drive.google.com/drive/folders/1hycDYKiJm2kc963OISyerCjV-kcix9Z3?usp=sharing).
 
 ### Procedures
 
@@ -80,7 +80,7 @@ python main.py \
 --save_generations  \
 --save_references \
 --tasks=humaneval \
---metric_output_path=./deepseek-coder-7b/evaluation_results_humaneval.json
+--metric_output_path=./bigcode/starcoder2-7b/evaluation_results_humaneval.json
 
 # mbpp
 python main.py \
@@ -93,7 +93,7 @@ python main.py \
 --save_generations  \
 --save_references \
 --tasks=mbpp \
---metric_output_path=./deepseek-coder-7b/evaluation_results_mbpp.json
+--metric_output_path=./bigcode/starcoder2-7b/evaluation_results_mbpp.json
 
 # multiple-js
 python main.py \
@@ -106,7 +106,7 @@ python main.py \
 --save_generations  \
 --save_references \
 --tasks=multiple-js \
---metric_output_path=./deepseek-coder-7b/evaluation_results_multiple_js.json
+--metric_output_path=./bigcode/starcoder2-7b/evaluation_results_multiple_js.json
 
 # multiple-cpp
 python main.py \
@@ -119,7 +119,7 @@ python main.py \
 --save_generations  \
 --save_references \
 --tasks=multiple-cpp \
---metric_output_path=./deepseek-coder-7b/evaluation_results_multiple_cpp.json
+--metric_output_path=./bigcode/starcoder2-7b/evaluation_results_multiple_cpp.json
 ```
 
 ### Results
