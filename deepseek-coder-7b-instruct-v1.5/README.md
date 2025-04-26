@@ -55,7 +55,7 @@ num-server-rounds = 50
 
 #### Communication Cost
 
-50 Rounds, 3.00 GiB
+3003 MB
 
 ## Evaluation
 
